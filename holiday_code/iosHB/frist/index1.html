@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+   <!-- <link rel="stylesheet" type="text/css" href="index.css">-->
+   	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	body{
+		font-family: 楷体;
+	}
+	.base{
+		width: 100%;
+		height: 100vh;
+		background-color: #E0FFFF;
+	}
+
+	/* part1  start-----*/
+	.part1{
+		width: 100%;
+		height: 10%;
+		background-color: #3A5FCD;
+  	}
+  	.icon1{
+  		width: 20px;
+  		height: 20px;
+  		/*border: 1px solid red;*/
+  		padding-top: 10px;
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  	}
+  	.icon_1{
+  		width: 100%;
+  		height: 100%;
+  	}
+
+  	/*.icon2{
+  		width: 20px;
+  		height: 20px;
+  		border: 1px solid red;
+  		padding-top: 10px;
+  		text-align: center;
+  	}
+  	.icon_2{
+  		width: 100%;
+  		height: 100%;
+  		}*/
+
+  	h3{
+  		text-align: center;
+  		padding-top: -10px;
+  		color: white;
+  	}	
+  	/* part1  end-----*/
+
+
+
+
+  	/* part2  start-----*/
+	.part2{
+		width: 100%;
+		height: 30%;
+		background-color: green;
+	}
+	.lunboimgs{
+		width: 100%;
+		height: 100%;
+	}
+	.imgs{
+		width: 100%;
+		height: 100%;
+
+	}
+	hr{
+		width: 100%;
+		height: 5px;
+		background-color: white;
+	}
+
+  	/* part2  end-----*/
+
+  	.part3{
+  		width: 100%;
+  		height: 5%;
+  		background-color: #A1A1A1;
+  		display: flex;
+  		/*justify-content:space-around;*/
+  		align-items: center;
+  	}
+  	.icon3{
+  		width: 20px;
+  		height: 20px;
+  		/*border: 1px solid red;*/
+  		padding-top: 10px;
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  	}
+  	.icon_3{
+  		width: 100%;
+  		height: 100%;
+  		
+  	}
+  	p{
+  		font-size: 10px;
+  		padding-top: 10px;
+  		color: wheat;
+  	}
+
+  	.part4{
+  		width: 100%;
+  		height: 44%;
+  		background-color: white;
+  		display: flex;
+  		flex-wrap: wrap;
+  		display: flex;
+  		justify-content: center;
+  		align-items: center;
+  		border: 2px solid darkcyan;
+  	}
+  	.cell{
+  		background-color: red;
+  		width: 70px;
+  		height: 70px;
+  		margin: 15px;
+  		border: 1px solid black;
+  	}
+  	.hr2{
+  		width: 100%;
+  		height: 1px;
+  		color: #C8C7CC;
+  	}
+  	.part5{
+  		width: 100%;
+  		height: 9%;
+  		display: flex;
+  		justify-content: space-around;
+  		align-items: center;
+  		/*flex-direction: column;*/
+  		
+  	}
+  	.cell1{
+  		width: 40px;
+  		height: 40px;
+  		/*border: 1px solid black;*/
+  	}
+  	.icon_5{
+  		width: 80%;
+  		height: 80%;
+  	}
+</style>
+</head>
+<body>
+	<div class="base">
+		<div class="part1">
+			<div class="icon1">
+				<img class="icon_1" src="./imgs/提醒.png">
+			</div>
+			<!-- <div class="icon2">
+				<img class="icon_2" src="../imgs/定位.png">
+			</div> -->
+			<h3>南京永恒科技有限公司</h3>
+		</div>
+
+		<div class="part2">
+			<div class="lunboimgs">
+				<img class="imgs" src="./imgs/timg.jpg">
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="part3">
+			
+			<div class="icon3">
+				<img class="icon_3" src="./imgs/公告.png">
+			</div>
+			<p>今日天气：南京市，大雨,气温7℃~10℃,东北风2级，当前温度7℃。</p>
+		</div>
+
+		<div class="part4">
+			<div class="cell"></div>
+			<div class="cell">2</div>
+			<div class="cell">3</div>
+			<div class="cell">4</div>
+			<div class="cell">5</div>
+			<div class="cell">6</div>
+			<div class="cell">7</div>
+			<div class="cell">8</div>
+			<div class="cell">9</div>
+		</div>
+		<hr class="hr2" />
+		
+		<div class="part5">
+			<div class="cell1">
+				<img src="./imgs/首页 (1).png" class="icon_5">
+				我的
+			</div>
+			
+			<div class="cell1">
+				<img src="./imgs/动态 (1).png" class="icon_5">
+				动态
+			</div>
+			<div class="cell1">
+				<img src="./imgs/视频.png" class="icon_5">
+				视频
+			</div>
+			<div class="cell1">
+				<img src="./imgs/我的 (1).png" class="icon_5">
+				我的
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

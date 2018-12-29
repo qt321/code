@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/197文件/json/json/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="E:/197文件/json/json/commons-collections.jar"/>
+	<classpathentry kind="lib" path="E:/197文件/json/json/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="E:/197文件/json/json/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/197文件/json/json/ezmorph-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/197文件/json/json/json.jar"/>
+	<classpathentry kind="lib" path="E:/197文件/mysql-connector-java-3.1.11-bin.jar"/>
+	<classpathentry kind="lib" path="E:/197文件/fastjson/fastjson/fastjson.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

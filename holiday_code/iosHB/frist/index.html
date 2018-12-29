@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <style>
+    	*{
+    		margin: 0px;
+    		padding: 0px;
+    	}
+    	.base{
+    		width: 100%;
+    		height: 100vh;
+    		/*background-color: green;*/
+    	}
+    	
+
+
+    	.top{
+    		width: 100%;
+    		height: 30vh;
+   			/*background-color: yellow;*/
+    		background-image: url(imgs/topimg_2.jpg);
+    		background-size: 100% 100%;
+    		opacity: 0.8;
+    		padding: 10px 0;
+    		/*border: 2px solid black;*/
+    	}
+    	.top input{
+    		display: block;
+    		width:260px;
+    		height: 40px;
+    		opacity: 0.3;
+    		
+    		border-radius: 20px;
+    		/*border: 2px solid red;*/
+    		text-align: center;
+    		margin: 0 auto;
+    		padding: 5px 0;
+    		
+    	}
+    	/*.sousuo{
+    		width: 20px;
+    		height: 20px;*/
+    	}
+    	.content{
+    		background-color: #D6D6D6;
+    	}
+    	.part1{
+    		width: 100%;
+    		height: 12vh;
+    		/*border:  1px solid black;*/
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		
+    	}
+    	.cell{
+    		width: 60px;
+    		height: 60px;
+    		/*border: 1px solid black;*/
+    		margin: 10px;
+    		/*background-color: #FF69B4;*/
+    		border-radius: 100px;
+    		margin-top:2px ;
+    		text-align: center;
+    		
+    	}
+    	.imgs{
+    		width: 90%;
+    		height: 80%;
+    	}
+    	p{
+    		font-size: 13px;
+    		color: black;
+    		text-align: center;
+    		
+    	}
+    	.part2{
+    		width: 100%;
+    		height: 13vh;
+    		/*border: 1px solid black;*/
+    		display: flex;
+    		flex-wrap: wrap;
+    		justify-content: center;
+    		align-items: center;
+    		
+    	}
+    	.cell_1{
+    		width: 80px;
+    		height: 28px;
+    		border: 1px solid #ccc;
+    		margin: 5px;
+    		text-align: center;
+    	}
+    	.part3{
+    		width: 100%;
+    		height: 24vh;
+    		/*border: 1px solid black;*/
+    		display: flex;
+    		flex-wrap: wrap;
+    		justify-content: center;
+    		align-items: center;
+    	}
+    	.cell_2{
+    		width: 70px;
+    		height: 60px;
+    	/*	border: 1px solid black;*/
+    		margin: 2px;
+    		
+    	}
+    	.chebiao{
+    		width: 100%;
+    		height: 100%;
+    	}
+    	.cell_3{
+    		width: 100px;
+    		height: 50px;
+    		/*border: 1px solid black;*/
+    		margin: 10px;
+    	}
+    	.part4{
+    		width: 100%;
+    		height: 8vh;
+    		/*border: 1px solid black;*/
+    		
+    		
+    	}
+    	.footer{
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		display: flex;
+    		justify-content: center;
+    		align-items: center;
+    		
+    	}
+    	.cell_4{
+    		width: 50px;
+    		height: 50px;
+    		/*border: 1px solid black;*/
+    		margin: 5px;
+    		text-align: center;
+    		
+    		
+    	}
+    	.img_footer{
+    		width: 30px;
+    		height: 30px;
+    		
+    	}
+    </style>
+   
+</head>
+<body>
+	<div class="base">
+
+		<div class="top">
+			<input  type="text" value="请输入车型" placeholder="请输入车型"/>
+			<img class="sousuo" src="imgs/搜索.png"  style="width: 40px;height: 40px;"/>
+				<!--<input type="text" size="30"  />-->
+			
+		</div>
+	<div class="content">
+		<div class="part1">
+			<div class="cell" style="background-color: #FF69B4;">
+				<img class="imgs" src="imgs/车轮.png" />
+				<p>条件选车</p>
+			</div>
+			<div class="cell" style="background-color: #9370DB;">
+				<img class="imgs" src="imgs/资讯.png" />
+				<p>汽车资讯</p>
+			</div>
+			<div class="cell" style="background-color: #EEC900;">
+				<img class="imgs" src="imgs/奖杯.png" />
+				<p>销量排行</p>
+			</div>
+			<div class="cell" style="background-color: #32CD32;">
+				<img class="imgs" src="imgs/新能源.png" />
+				<p>新能源</p>
+			</div>
+			<div class="cell" style="background-color: #1874CD;">
+				<img class="imgs" src="imgs/车辆 (1).png" />
+				<p>新车上市</p>
+			</div>
+		</div>
+		
+		<div class="pp">
+			<p style="font-size:28px;">快捷选车</p>
+		</div>
+		
+		<div class="part2">
+			<div class="cell_1">5~10万</div>
+			<div class="cell_1">10~15万</div>
+			<div class="cell_1">15~20万</div>
+			<div class="cell_1">20~30万</div>
+			<div class="cell_1">轿车</div>
+			<div class="cell_1">SUV</div>
+			<div class="cell_1">MVP</div>
+			<div class="cell_1">更多选择</div>
+		</div>
+		
+		<div class="pp">
+			<p style="font-size:28px;">热门推荐</p>
+		</div>
+		
+		<div class="part3">
+			<div class="cell_2">
+				<img class="chebiao" src="imgs/yiqi.jpg">
+				<p>一汽</p>
+			</div>
+			<div class="cell_2">
+				<img class="chebiao" src="imgs/biyadi.jpg">
+				<p>比亚迪</p>
+			</div>
+			<div class="cell_2">
+				<img class="chebiao" src="imgs/jianghuai.jpg">
+				<p>海马</p>
+			</div>
+			<div class="cell_2">
+				<img class="chebiao" src="imgs/xuefulan.jpg">
+				<p>雪佛兰</p>
+			</div>
+			<div class="cell_2">
+				<img class="chebiao" src="imgs/fengtian.jpg">
+				<p>丰田</p>
+			</div>
+			<div class="cell_3">
+				<img class="chebiao" src="imgs/dazhongcc.jpg" />
+				<p>2019款大众CC</p>
+			</div>
+			<div class="cell_3">
+				<img class="chebiao" src="imgs/bentian.jpg" />
+				<p>本田</p>
+			</div>
+			<div class="cell_3">
+				<img class="chebiao" src="imgs/hafuH5.jpg" />
+				<p>哈弗H5</p>
+			</div>
+			
+		</div>
+		</div>	
+		<div class="part4">
+			<div class="footer">
+				<div class="cell_4">
+					<img src="imgs/车辆.png" class="img_footer">
+					<p>新车</p>
+				</div>
+				<div class="cell_4">1</div>
+				<div class="cell_4">1</div>
+				<a href="fenxi.html"><div class="cell_4">
+					<img src="imgs/分析.png" class="img_footer">
+					<p>分析</p>
+				</div></a>
+				<div class="cell_4">1</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
